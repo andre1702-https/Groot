@@ -1,0 +1,95 @@
+BODY{
+    background-color: #fff;
+a {
+  color: #fff;          /* Cor do texto */
+  font-weight: bold;       /* Negrito */
+  font-family: 'Arial', sans-serif;
+  font-size: 20px;
+  display: inline-block;
+  margin-left: 50px; /* Move o link 50px para a direita */
+  margin-top: 30px;  /* Move 20px para baixo */
+}
+.titulo1{
+    color: #143F24;
+    margin-top: 150px;
+    padding: 30px;
+    font-size: 64px;
+}
+.titulo2{
+    color: #143F24;
+    margin-top: 20px;
+    padding: 30px;
+    font-size: 64px;
+}
+.titulo3{
+    color: #143F24;
+    margin-top: 20px;
+    padding: 30px;
+    font-size: 64px;
+}
+.faixa-topo {
+    background-color: #143F24;      /* Cor de fundo */
+    color: #fff;                /* Cor do texto */
+    text-align: center;          /* Centraliza o texto */
+    padding: 40px 0;             /* Espaçamento interno (cima e baixo) */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    font-size: 40px;
+    position: fixed;             /* Fixa no topo */
+    top: 0;
+    left: 0;
+    width: 100%;                 /* Ocupa toda a largura da tela */
+    z-index: 100;               /* Fica por cima de outros elementos */
+}
+.conteudo1{
+    margin-top: 5px;  
+    padding: 30px;
+    color:#143F24 
+}
+.conteudo1 {
+    display: flex;            /* Coloca os itens lado a lado */
+    align-items: center;      /* Alinha verticalmente */
+    gap: 20px;                /* Espaço entre a imagem e o texto */
+    padding: 20px;
+}
+
+.conteudo1 img {
+    width: 450px;             /* Define o tamanho da imagem */
+    height: auto;
+}
+
+.conteudo1 p {
+    font-size: 20px;
+}
+.conteudo2{
+    display: flex;            /* Coloca os itens lado a lado */
+    align-items: center;      /* Alinha verticalmente */
+    gap: 20px;                /* Espaço entre a imagem e o texto */
+    flex-direction: row-reverse;
+    margin-top: 5px;
+    padding: 20px;
+}
+.conteudo2 img {
+    width: 30%;
+    height: auto;
+}
+}
+.conteudo2 p {
+    font-size: 20px;
+    color: #143F24;
+}
+.conteudo3{
+    display:block;            /* Coloca os itens lado a lado */
+    align-items: center;      /* Alinha verticalmente */
+    gap: 20px;                /* Espaço entre a imagem e o texto */
+    flex-direction: row-reverse;
+    margin-top: 5px;
+    padding: 20px;
+}
+.conteudo3 img {
+    width: 20%;
+    height: auto;
+}
+.conteudo3 p {
+    font-size: 20px;
+    color: #143F24;
+}
